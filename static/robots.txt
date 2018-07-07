@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /rup/css
+Disallow: /rup/downloads
+Disallow: /rup/images
+Disallow: /v12games/cms
+Disallow: /v12games/css
+Disallow: /v12games/images
+Disallow: /v12games/js
+Disallow: /v12games/theme
+Sitemap: http://www.rup.com.br/sitemap.xml

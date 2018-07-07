@@ -1,0 +1,108 @@
+/*
+    $Id$
+*/
+
+body {
+    margin:0;
+    padding:0;
+    line-height: 1.5em;
+    background: #E8EBEC url(/images/body.gif) repeat-x 0 0;
+}
+b {
+    font-size: 110%;
+}
+em {
+    color: red;
+}
+#maincontainer {
+    width: 840px; /*Width of main container*/
+    margin: 0 auto; /*Center container on page*/
+    background: transparent url(page.png) repeat-y 0 0;
+}
+
+#topsection {
+    height: 70px; /*Height of top section*/
+}
+
+#topsection h1 {
+    margin: 0;
+    padding-top: 15px;
+}
+
+#contentwrapper {
+    float: left;
+    width: 100%;
+}
+
+#contentcolumn {
+    margin-left: 200px; /*Set left margin to LeftColumnWidth*/
+}
+
+#leftcolumn {
+    float: left;
+    width: 200px; /*Width of left column*/
+    margin-left: -840px; /*Set left margin to -(MainContainerWidth)*/
+}
+
+#footer {
+    clear: left;
+    width: 100%;
+    color: #8F8F8F;
+    text-align: center;
+    padding: 4px 0;
+}
+
+#footer a {
+    color: #FFFF80;
+}
+
+.toptube {
+    margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+    margin-top: 5px;
+}
+
+.innertube {
+    margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+    margin-top: 30px;
+}
+
+#container {
+    position:relative;
+    width:100%;
+}
+#columnone {
+    width:97%;
+    overflow-x:scroll;
+    margin:0 auto;
+}
+#columnone .images {
+    float:left;
+    margin:5px;
+    text-align:center;
+}
+.images img {
+    border:0;
+}
+#outer {
+    width:3800px;
+    height:200px;
+}
+#columnone p {
+    padding-top:10px;
+}
+
+#appstore {
+    width: 200px;
+    height: 450px;
+    background: transparent url(page.png) repeat-y 0 0;
+    vertical-align: middle;
+    text-align:center;
+    display: table-cell;
+}
+
+#lockup {
+    float:left;
+    width:auto;
+    margin:0 13px 0 4px;
+    padding:0;
+}
